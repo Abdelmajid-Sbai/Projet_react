@@ -1,0 +1,14 @@
+h1 {
+    text-align: center; /* Alignement du texte au centre */
+  }
+.imgprod {
+    width: 200px;
+    height: 300px; /* La hauteur est ajustée automatiquement pour conserver les proportions */
+   }
+.container-p{
+    width:250px;
+    height: 300px;
+    border: 1px solid #ddd; /* Bordure de 1 pixel avec une couleur grise (#ddd) */
+    padding: 20px; /* Espacement interne du conteneur */
+       
+}

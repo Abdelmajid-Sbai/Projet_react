@@ -1,0 +1,125 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poooins',sans-serif;
+
+}
+.header-top-strip{
+    background-color: #131921;
+    margin-top: 0px;
+}
+.header-upper{
+    background-color: #131921;
+    margin-top: 0px;
+}
+.header-upper .input-group-text{
+    background-color: darkorange;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: inherit;
+}
+:root{
+   
+}
+body{
+    margin-top: 0;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.naavbar{
+    
+    
+    height: 10vh;
+    
+    box-shadow: rgba(50,50,93,0.23) 0 30px 30px -20px;
+    
+    margin-bottom: 30px;
+}
+
+.logo{
+    font-size: 30px;
+    color: blue;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+
+.contaiiner{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li{
+    color: blue;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.hero{
+    text-align: center;
+    margin-top: 10%;
+}
+.hero h1{
+    text-align: center;
+}
+
+button{
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+.mobile-menu-icon{
+    display: none;
+
+}
+@media (max-width:768px) {
+    .naavbar{
+   
+        height: 10vh;
+        
+        box-shadow: rgba(50,50,93,0.23) 0 30px 30px -20px;
+        
+        margin-bottom: 130px;
+    }
+    .nav-links{
+        margin-top: 10px;
+        position: absolute;
+        display: block;
+        list-style: none;
+        box-shadow: rgba(50,50,93,0.23) 0 30px 30px -20px;
+        left: 0;
+        top: 10%;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+      
+        margin-bottom: 30px;
+
+
+    }
+    .nav-links li{
+        margin-top: 10px;
+        
+       
+    }
+  
+}
