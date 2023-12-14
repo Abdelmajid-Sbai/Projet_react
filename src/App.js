@@ -22,6 +22,7 @@ function App() {
       <Header/>
 
       <Routes>
+        
         <Route   path='/' element={<Home/>}  />
         <Route   path='/Store' element={<Store/>}  />
         <Route   path='/Profile' element={<Profile/>}  />
