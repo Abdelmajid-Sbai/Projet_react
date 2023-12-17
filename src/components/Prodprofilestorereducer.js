@@ -3,10 +3,10 @@
 const INITIAL_STATE={
 
     prods:[
-        {nom:"Tablet",categorie:'Tablet',price:'$20',image:'images/tab2.jpg'},
-        {nom:"Tablet",categorie:'Tablet',price:'$20',image:'images/tab3.jpg'},
-        {nom:"TV",categorie:'TV',price:'$20',image:'images/tv.jpg'},
-        {nom:"Laptop",categorie:'Ordinateures',price:'$20',image:'images/pc.jfif'},
+        {nom:"Tablet",categorie:'Tablet',price:'$20',image:process.env.PUBLIC_URL+`/imagee/tab2.jpg`},
+        {nom:"Tablet",categorie:'Tablet',price:'$20',image:process.env.PUBLIC_URL+`/imagee/tab3.jpg`},
+        {nom:"TV",categorie:'TV',price:'$20',image:process.env.PUBLIC_URL+`/imagee/tv.jpg`},
+        {nom:"Laptop",categorie:'Ordinateures',price:'$20',image:process.env.PUBLIC_URL+`/imagee/pc.jfif`},
        
       
            ]

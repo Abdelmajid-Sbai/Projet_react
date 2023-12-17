@@ -28,7 +28,7 @@ export default function Profile() {
     <>
     <div className='container bg-dark mt-3'>
       <div className='row d-flex flex-wrap  aling-items-center  align-items-center'>
-        <div className='col-lg-2 col-sm-12 m-2'><img src='images/pro.jpg'/></div>
+        <div className='col-lg-2 col-sm-12 m-2'><img src={process.env.PUBLIC_URL+`/imagee/pro.jpg`}/></div>
         <div className='col-lg-3 col-sm-12  p-5'>  
         <Link className='button mb-3' to='/ModifierInfo'>Modifier Info</Link>
         <h1 className='text-white m-3 text-start'>Ali</h1>

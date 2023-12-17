@@ -15,17 +15,17 @@ import './store.css'
 
 export default function Store() {
   const [products,setproducts]=useState([
-    {nom:'prod1',img:'images/tab3.jpg',price:'$100'},
-    {nom:'prod2',img:'images/tab2.jpg',price:'$100'},
-    {nom:'prod3',img:'images/pc.jfif',price:'$100'},
-    {nom:'prod1',img:'images/tv.jpg',price:'$100'},
-    {nom:'prod1',img:'images/tab3.jpg',price:'$100'},
-    {nom:'prod1',img:'images/tab2.jpg',price:'$100'},
-    {nom:'prod1',img:'images/pc1.jfif',price:'$100'},
-    {nom:'prod1',img:'images/tab3.jpg',price:'$100'},
-    {nom:'prod1',img:'images/tv.jpg',price:'$100'},
-    {nom:'prod1',img:'images/tab2.jpg',price:'$100'},
-    {nom:'prod1',img:'images/tab3.jpg',price:'$100'}
+    {nom:'prod1',img:process.env.PUBLIC_URL+`/imagee/tab3.jpg`,price:'$100'},
+    {nom:'prod2',img:process.env.PUBLIC_URL+`/imagee/tab2.jpg`,price:'$100'},
+    {nom:'prod3',img:process.env.PUBLIC_URL+`/imagee/pc.jfif`,price:'$100'},
+    {nom:'prod1',img:process.env.PUBLIC_URL+`/imagee/tv.jpg`,price:'$100'},
+    {nom:'prod1',img:process.env.PUBLIC_URL+`/imagee/tab3.jpg`,price:'$100'},
+    {nom:'prod1',img:process.env.PUBLIC_URL+`/imagee/tab2.jpg`,price:'$100'},
+    {nom:'prod1',img:process.env.PUBLIC_URL+`/imagee/pc2.jfif`,price:'$100'},
+    {nom:'prod1',img:process.env.PUBLIC_URL+`/imagee/tab3.jpg`,price:'$100'},
+    {nom:'prod1',img:process.env.PUBLIC_URL+`/imagee/tv.jpg`,price:'$100'},
+    {nom:'prod1',img:process.env.PUBLIC_URL+`/imagee/pc.jfif`,price:'$100'},
+    {nom:'prod1',img:process.env.PUBLIC_URL+`/imagee/tab3.jpg`,price:'$100'}
 ])
 const[categories,setcategories]=useState([
   {nom:'Ordinature'},

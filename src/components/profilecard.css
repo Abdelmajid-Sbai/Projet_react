@@ -1,9 +1,11 @@
 .categorie{
-    width: 250px;
+   width: 220px; 
+    
     background-color: white;
 }
 .card{
     width: 200px;
+    margin: 0;
 }
 .filter-card{
     background-color: rgb(235, 199, 199);

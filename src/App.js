@@ -1,7 +1,7 @@
 import {Routes,Route} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 import Header from './components/comproutes/Header';
@@ -12,7 +12,6 @@ import Profile from './components/Profile';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Productdetails from './components/Productdetails';
-
 import Addp from './components/Addp';
 
 
